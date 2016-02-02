@@ -11,9 +11,13 @@
 |
 */
 
+Route::any('/', 'RobotController@index');
+
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
 
 /*
 |--------------------------------------------------------------------------
